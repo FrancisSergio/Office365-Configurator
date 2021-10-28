@@ -1,0 +1,16 @@
+$cl-white : #FFFFFF;
+$cl-black : #050505;
+$cl-bg-gray : #F1F1F1;
+$cl-font-gray : #575756;
+
+$cl-prime : #0078D7;
+$cl-default : #E6E6E6;
+$cl-banner-gray : #D5D5D5;
+
+$cl-box-shadow : rgba(0, 0, 0, .16);
+
+$box-shadow : 0 3px 6px $cl-box-shadow;
+$box-shadow-rotate180 : 0 -3px 6px $cl-box-shadow;
+$box-shadow-tab-header : 3px -3px 6px $cl-box-shadow;
+$transition : all ease-in-out .3s;
+$result-topline-border : 1px solid $cl-prime;

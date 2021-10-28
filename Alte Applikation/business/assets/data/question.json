@@ -1,0 +1,146 @@
+{
+    "0" : {
+        "identiefier" : "q0_a",
+        "question" : "Finden Sie das optimale Office für Ihr Unternehmen.",
+        "image" : "business.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "Start",
+                "nextQ" : "2"
+            }
+        },
+        "notice" : {
+            "message": ""
+        }
+    },
+    "1" : {
+        "identiefier" : "q1_a",
+        "question" : "Bevorzugen Sie eine Dauerlizenz oder ein Jahresabonnement mit monatlichen Funktions-Updates?",
+        "image" : "license_private.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "Dauerlizenz",
+                "nextQ" : "3"
+            },
+            "1" : {
+                "content" : "Jahresabo",
+                "nextQ" : "4"
+            }
+        },
+        "notice" : {
+            "message": "<sup>*</sup>Ab Verfügbarkeit. Weitere Informationen finden Sie hier zu <a href='https://www.microsoft.com/de-ch/microsoft-365/microsoft-teams/teams-for-home'>Teams</a> und <a href='https://www.microsoft.com/de-ch/microsoft-365/family-safety'>Family Safety</a>."
+        }
+    },
+    "2" : {
+        "identiefier" : "q1_b",
+        "question" : "Wie viele Mitarbeiter gibt es in Ihrem Unternehmen?",
+        "image" : "user_business.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "1-25 Mitarbeiter",
+                "nextQ" : "5"
+            },
+            "1" : {
+                "content" : "25-300 Mitarbeiter",
+                "nextQ" : "6"
+            }
+        },
+        "notice" : {
+            "message": ""
+        }
+    },
+    "3" : {
+        "identiefier" : "q2_a",
+        "question" : "Möchten Sie Outlook nutzen?",
+        "image" : "outlook.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "Ja",
+                "nextQ" : "r0_a"
+            },
+            "1" : {
+                "content" : "Nein",
+                "nextQ" : "r0_b"
+            }
+        },
+        "notice" : {
+            "message": ""
+        }
+    },
+    "4" : {
+        "identiefier" : "q2_b",
+        "question" : "Wie viele Personen sollen die Office-Anwendungen nutzen?",
+        "image" : "user_private.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "1 User",
+                "nextQ" : "r0_c"
+            },
+            "1" : {
+                "content" : "bis zu 6 User",
+                "nextQ" : "r0_d"
+            }
+        },
+        "notice" : {
+            "message": ""
+        }
+    },
+    "5" : {
+        "identiefier" : "q2_c",
+        "question" : "Bevorzugen Sie eine Dauerlizenz oder ein Jahresabonnement mit monatlichen Funktions-Updates?",
+        "image" : "license_business.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "Dauerlizenz",
+                "nextQ" : "r0_e"
+            },
+            "1" : {
+                "content" : "Jahresabo",
+                "nextQ" : "6"
+            }
+        },
+        "notice" : {
+            "message": ""
+        }
+    },
+    "6" : {
+        "identiefier" : "q2_d",
+        "question" : "Möchten Sie nur die Web-Versionen und die Mobile-Apps nutzen oder benötigen Sie zusätzlich die Desktop-Apps?",
+        "image" : "desktop_online.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "Web / Mobil",
+                "nextQ" : "r1_d"
+            },
+            "1" : {
+                "content" : "Desktop",
+                "nextQ" : "7"
+            }
+        },
+        "notice" : {
+            "message": ""
+        }
+    },
+    "7" : {
+        "identiefier" : "q3_a",
+        "question" : "Benötigen Sie zusätzliche Features zu den Desktop-Apps?",
+        "image" : "features.jpg",
+        "answers" : {
+            "0" : {
+                "content" : "Nur OneDrive",
+                "nextQ" : "r1_a"
+            },
+            "1" : {
+                "content" : "Cloud",
+                "nextQ" : "r1_b"
+            },
+            "2" : {
+                "content" : "Cloud + Security",
+                "nextQ" : "r1_c"
+            }
+        },
+        "notice" : {
+            "message": ""
+        }
+    }
+}

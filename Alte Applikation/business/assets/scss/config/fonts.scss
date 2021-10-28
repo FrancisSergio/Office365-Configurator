@@ -1,0 +1,56 @@
+@mixin fontFaces($fontDirectory, $fontStyleDirectory, $fontFace, $fontFamily) {
+    @font-face {
+        font-family: $fontFamily;
+        src: url("fonts/"+$fontDirectory+"/"+$fontStyleDirectory+"/"+$fontFace+".eot");
+        src: url("fonts/"+$fontDirectory+"/"+$fontStyleDirectory+"/"+$fontFace+".eot?#iefix")
+            format("embedded-opentype"),
+        url("fonts/"+$fontDirectory+"/"+$fontStyleDirectory+"/"+$fontFace+".woff2") format("woff2"),
+        url("fonts/"+$fontDirectory+"/"+$fontStyleDirectory+"/"+$fontFace+".woff") format("woff"),
+        url("fonts/"+$fontDirectory+"/"+$fontStyleDirectory+"/"+$fontFace+".ttf") format("truetype"),
+        url("fonts/"+$fontDirectory+"/"+$fontStyleDirectory+"/"+$fontFace+".otf"); 
+    } 
+} 
+@include fontFaces("Segoe_UI", "Segoe_UI_light", "Segoe_UI_light", "CIFontLight");
+@include fontFaces("Segoe_UI", "Segoe_UI_regular", "Segoe_UI_regular", "CIFontRegular");
+@include fontFaces("Segoe_UI", "Segoe_UI_semibold", "Segoe_UI_semibold", "CIFontSemiBold"); 
+$alternative-font : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$CIFontLight : 'CIFontLight', $alternative-font;
+$CIFontRegular : 'CIFontRegular', $alternative-font;
+$CIFontSemiBold : 'CIFontSemiBold', $alternative-font;
+
+#startPage { 
+    font-family: $CIFontRegular, $alternative-font;
+    font-size: 15px; 
+    line-height: normal; 
+    -moz-osx-font-smoothing: grayscale; /* Firefox */
+    -webkit-font-smoothing: antialiased; /* WebKit  */ 
+    // text-shadow: $normalize-text-shadow; 
+    text-rendering: geometricPrecision; 
+    letter-spacing: 0.5px; 
+    color: $cl-black; 
+    background: $cl-white; 
+
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, a, p, button, span, strong, small {
+        line-height: normal; 
+        color: $cl-black;
+    }
+    h1, .h1 { 
+        font-size: 50px; 
+        color: $cl-font-gray;
+        margin: 80px 0;
+        font-family: $CIFontSemiBold;
+    
+        span {
+            display: block;
+            color: $cl-prime;
+        }
+    }
+    p {
+        font-size: 19px;
+        color: $cl-font-gray;
+    }
+    a { 
+        font-size: 19px;
+        text-decoration: none;
+    }
+}

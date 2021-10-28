@@ -1,0 +1,9 @@
+/** import config / setup files **/ 
+@import"config/normalize"; 
+@import"config/variables"; 
+@import"config/fonts"; 
+@import"config/grid"; 
+/** import main style **/
+@import"main";
+/** import responsive style **/
+@import"responsive";

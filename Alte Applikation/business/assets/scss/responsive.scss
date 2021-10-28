@@ -1,0 +1,110 @@
+@media screen and (max-width: 991px) {
+    #startPage {
+
+        #step_back {
+            top: 103px;
+        }
+        #new-grid {
+        
+            #step_back {
+
+                svg {
+            
+                    path {
+                        fill: $cl-prime;
+        
+                        &#Pfad_1 {
+                            fill: none;
+                            stroke: $cl-prime;
+                        }
+                    }
+                }
+            }
+        }
+        .banner {
+            padding: 45px 0;
+            margin-top: 22.5px;
+    
+            img {
+                max-width: 300px;
+                margin-bottom: 0;
+            }
+            .row {
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .info-container {
+
+            #supportservice {
+                padding-right: 15px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    #startPage {
+        
+        h1 {
+            font-size: 35px;
+        }
+        .btn {
+            font-size: 22.5px;
+            margin: 11.25px 5.325px;
+            display: block;
+            width: 100%;
+        }
+        nav {
+    
+            img {
+                max-width: 164.25px;
+            }
+        }
+        header {
+            margin: 56.25px 0;
+        }
+        aside {
+            margin-top: 56.25px 0;
+        }
+        .top {
+    
+            p {
+                font-size: 22.5px;
+            }
+        }
+        .info-container {
+            
+            p {
+                font-size: 17.235px;
+                margin-bottom: 3.75px;
+            }
+            img {
+                margin-top: 11.25px!important;
+            }
+            .row {
+                margin-bottom: 22.5px;
+            }
+            .notice {
+
+                p {
+                    font-size: 11px;
+                }
+            }
+        }
+        .banner {
+    
+            img {
+                margin-bottom: 30px;
+            }
+        }
+        #step_back {
+    
+            svg {
+                max-width: 39px;
+            }
+        }
+        .notice {
+            margin: 30px 0;
+        }
+    }
+}

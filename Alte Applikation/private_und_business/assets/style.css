@@ -1,0 +1,813 @@
+/** import config / setup files **/
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "CIFontLight";
+  src: url("fonts/Segoe_UI/Segoe_UI_light/Segoe_UI_light.eot");
+  src: url("fonts/Segoe_UI/Segoe_UI_light/Segoe_UI_light.eot?#iefix") format("embedded-opentype"), url("fonts/Segoe_UI/Segoe_UI_light/Segoe_UI_light.woff2") format("woff2"), url("fonts/Segoe_UI/Segoe_UI_light/Segoe_UI_light.woff") format("woff"), url("fonts/Segoe_UI/Segoe_UI_light/Segoe_UI_light.ttf") format("truetype"), url("fonts/Segoe_UI/Segoe_UI_light/Segoe_UI_light.otf");
+}
+@font-face {
+  font-family: "CIFontRegular";
+  src: url("fonts/Segoe_UI/Segoe_UI_regular/Segoe_UI_regular.eot");
+  src: url("fonts/Segoe_UI/Segoe_UI_regular/Segoe_UI_regular.eot?#iefix") format("embedded-opentype"), url("fonts/Segoe_UI/Segoe_UI_regular/Segoe_UI_regular.woff2") format("woff2"), url("fonts/Segoe_UI/Segoe_UI_regular/Segoe_UI_regular.woff") format("woff"), url("fonts/Segoe_UI/Segoe_UI_regular/Segoe_UI_regular.ttf") format("truetype"), url("fonts/Segoe_UI/Segoe_UI_regular/Segoe_UI_regular.otf");
+}
+@font-face {
+  font-family: "CIFontSemiBold";
+  src: url("fonts/Segoe_UI/Segoe_UI_semibold/Segoe_UI_semibold.eot");
+  src: url("fonts/Segoe_UI/Segoe_UI_semibold/Segoe_UI_semibold.eot?#iefix") format("embedded-opentype"), url("fonts/Segoe_UI/Segoe_UI_semibold/Segoe_UI_semibold.woff2") format("woff2"), url("fonts/Segoe_UI/Segoe_UI_semibold/Segoe_UI_semibold.woff") format("woff"), url("fonts/Segoe_UI/Segoe_UI_semibold/Segoe_UI_semibold.ttf") format("truetype"), url("fonts/Segoe_UI/Segoe_UI_semibold/Segoe_UI_semibold.otf");
+}
+#startPage {
+  font-family: "CIFontRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  line-height: normal;
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  -webkit-font-smoothing: antialiased;
+  /* WebKit  */
+  text-rendering: geometricPrecision;
+  letter-spacing: 0.5px;
+  color: #050505;
+  background: #FFFFFF;
+}
+#startPage h1, #startPage .h1, #startPage h2, #startPage .h2, #startPage h3, #startPage .h3, #startPage h4, #startPage .h4, #startPage h5, #startPage .h5, #startPage h6, #startPage .h6, #startPage a, #startPage p, #startPage button, #startPage span, #startPage strong, #startPage small {
+  line-height: normal;
+  color: #050505;
+}
+#startPage h1, #startPage .h1 {
+  font-size: 50px;
+  color: #575756;
+  margin: 80px 0;
+  font-family: "CIFontSemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#startPage h1 span, #startPage .h1 span {
+  display: block;
+  color: #0078D7;
+}
+#startPage p {
+  font-size: 19px;
+  color: #575756;
+}
+#startPage a {
+  font-size: 19px;
+  text-decoration: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#startPage {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0;
+}
+@-ms-viewport {
+  #startPage {
+    width: device-width;
+  }
+}
+#startPage ::before, #startPage ::after {
+  box-sizing: inherit;
+}
+#startPage .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#startPage .columns {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+#startPage .c-1, #startPage .c-2, #startPage .c-3, #startPage .c-4, #startPage .c-5, #startPage .c-6, #startPage .c-7, #startPage .c-8, #startPage .c-9, #startPage .c-10, #startPage .c-11, #startPage .c-12,
+#startPage .x-1, #startPage .x-2, #startPage .x-3, #startPage .x-4, #startPage .x-5, #startPage .x-6, #startPage .x-7, #startPage .x-8, #startPage .x-9, #startPage .x-10, #startPage .x-11, #startPage .x-12,
+#startPage .s-1, #startPage .s-2, #startPage .s-3, #startPage .s-4, #startPage .s-5, #startPage .s-6, #startPage .s-7, #startPage .s-8, #startPage .s-9, #startPage .s-10, #startPage .s-11, #startPage .s-12,
+#startPage .m-1, #startPage .m-2, #startPage .m-3, #startPage .m-4, #startPage .m-5, #startPage .m-6, #startPage .m-7, #startPage .m-8, #startPage .m-9, #startPage .m-10, #startPage .m-11, #startPage .m-12,
+#startPage .l-1, #startPage .l-2, #startPage .l-3, #startPage .l-4, #startPage .l-5, #startPage .l-6, #startPage .l-7, #startPage .l-8, #startPage .l-9, #startPage .l-10, #startPage .l-11, #startPage .l-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#startPage .c-1 {
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+#startPage .c-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+#startPage .c-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+#startPage .c-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+#startPage .c-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+#startPage .c-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+#startPage .c-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+#startPage .c-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+#startPage .c-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+#startPage .c-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+#startPage .c-11 {
+  -ms-flex: 0 0 91.666667%;
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+#startPage .c-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+@media screen and (min-width: 576px) {
+  #startPage .x-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #startPage .x-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #startPage .x-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #startPage .x-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #startPage .x-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #startPage .x-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #startPage .x-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #startPage .x-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #startPage .x-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #startPage .x-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #startPage .x-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #startPage .x-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #startPage .s-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #startPage .s-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #startPage .s-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #startPage .s-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #startPage .s-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #startPage .s-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #startPage .s-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #startPage .s-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #startPage .s-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #startPage .s-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #startPage .s-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #startPage .s-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #startPage .m-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #startPage .m-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #startPage .m-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #startPage .m-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #startPage .m-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #startPage .m-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #startPage .m-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #startPage .m-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #startPage .m-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #startPage .m-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #startPage .m-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #startPage .m-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1468px) {
+  #startPage .l-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #startPage .l-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #startPage .l-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #startPage .l-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #startPage .l-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #startPage .l-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #startPage .l-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #startPage .l-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #startPage .l-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #startPage .l-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #startPage .l-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #startPage .l-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+#startPage .container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0;
+}
+
+/** import main style **/
+#startPage {
+  position: relative;
+}
+#startPage #step_back {
+  position: absolute;
+  top: 136px;
+  left: 15px;
+}
+#startPage nav {
+  padding-top: 40.05px;
+  z-index: 1;
+  position: relative;
+}
+#startPage nav img {
+  max-width: 219px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+}
+#startPage header {
+  margin: 81px 0;
+}
+#startPage header h1 {
+  width: 100%;
+  margin: 80px 0 0 0;
+  min-height: 134px;
+}
+#startPage .btn {
+  font-size: 30px;
+  padding: 7.5px 30px;
+  border: none;
+  text-shadow: none;
+  display: inline-block;
+  margin: 15px 5px;
+  cursor: pointer;
+  outline: none;
+}
+#startPage .btn.btn-prime {
+  background: #0078D7;
+  color: #FFFFFF;
+}
+#startPage .btn.btn-white {
+  background: #FFFFFF;
+  color: #050505;
+  max-width: 255px;
+  margin: 15px auto;
+  font-family: "CIFontSemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  display: block;
+}
+#startPage aside {
+  margin-top: 80px;
+}
+#startPage #step_back {
+  display: block;
+  text-align: left;
+  margin-left: auto;
+  z-index: 9;
+  cursor: pointer;
+  font-family: "CIFontSemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  color: #575756;
+}
+#startPage #step_back svg {
+  max-width: 52px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+#startPage #step_back span {
+  display: inline-block;
+  margin-left: 10px;
+  color: #575756;
+  position: relative;
+}
+#startPage img {
+  width: 100%;
+}
+#startPage #questionPage {
+  display: none;
+}
+#startPage #tab-container ul {
+  display: flex;
+}
+#startPage #tab-container .tab-header {
+  cursor: pointer;
+  background: #E6E6E6;
+  color: #050505;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  display: -webkit-flex;
+  padding: 11.25px 15px;
+  font-family: "CIFontSemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#startPage #tab-container .tab-header.current {
+  background: #0078D7;
+  color: #FFFFFF;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 3px -3px 6px rgba(0, 0, 0, 0.16);
+  z-index: 1;
+}
+#startPage #tab-container .tab-content {
+  display: none;
+  transition: all ease-in-out 0.3s;
+}
+#startPage #tab-container .tab-content.current {
+  display: block;
+  transition: all ease-in-out 0.3s;
+}
+#startPage #tab-container .border {
+  height: 10px;
+  background: #0078D7;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16);
+  z-index: 2;
+}
+#startPage #new-grid {
+  margin: -90.8px -15px 0 -15px;
+  margin: -90.8px 0;
+}
+#startPage #new-grid #left-side {
+  padding: 151px 0 0 0;
+}
+#startPage #new-grid #right-side {
+  padding: 0;
+}
+#startPage #new-grid header {
+  margin-bottom: 45px;
+}
+#startPage #new-grid header h1 {
+  margin-top: 30px;
+}
+#startPage #new-grid header header {
+  margin: 0;
+}
+#startPage #new-grid.sub #left-side {
+  padding: 151px 0 0 0;
+}
+#startPage .top p {
+  font-family: "CIFontRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  border-bottom: 1px solid #0078D7;
+  padding-bottom: 10px;
+  color: #575756;
+  margin-bottom: 22.5px;
+  display: inline-block;
+}
+#startPage .info-container .license p {
+  font-family: "CIFontSemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#startPage .info-container .license small {
+  display: block;
+  font-size: 0.75rem;
+  color: #575756;
+  margin-top: 0.5em;
+}
+#startPage .info-container .user img {
+  max-width: initial;
+  max-height: 32px;
+  width: auto;
+}
+#startPage .info-container .devices img {
+  height: 53px;
+  max-width: initial;
+  width: auto;
+}
+#startPage .info-container .apps .group span {
+  max-width: 56px;
+}
+#startPage .info-container .cloudservice img {
+  max-width: 38px;
+}
+#startPage .info-container .cloudservice span {
+  max-width: 85px;
+}
+#startPage .info-container .cloudservice .group {
+  max-width: 80px;
+  width: 100%;
+}
+#startPage .info-container #supportservice {
+  padding-right: 80px;
+}
+#startPage .info-container .support.row {
+  align-items: start;
+}
+#startPage .info-container .support img {
+  width: auto;
+  height: 30px;
+  max-width: initial;
+}
+#startPage .info-container .support span {
+  max-width: 85px;
+}
+#startPage .info-container .support .group {
+  max-width: 80px;
+  width: 100%;
+}
+#startPage .info-container p {
+  font-size: 23px;
+  margin-bottom: 11.25px;
+}
+#startPage .info-container img {
+  max-width: 28px;
+}
+#startPage .info-container .row {
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#startPage .info-container .group {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 11.25px;
+  vertical-align: top;
+}
+#startPage .info-container .group span {
+  display: block;
+  margin: 0 3.5px;
+  font-size: 11px;
+  color: #575756;
+}
+#startPage .info-container .group img {
+  margin: 0 12px;
+}
+#startPage .notice {
+  margin: 30px 0;
+}
+#startPage .notice p {
+  font-size: 11px;
+}
+#startPage .notice p a {
+  font-size: inherit;
+  color: #0078D7;
+}
+#startPage .banner {
+  background: #0078D7;
+  margin: 0;
+  padding: 130px 0 45px 0;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+#startPage.gray h1 span {
+  color: #575756;
+}
+#startPage.gray .banner {
+  background: #D5D5D5;
+  margin-top: -30px;
+}
+#startPage.gray .tabBanner .banner, #startPage.gray .sub .banner {
+  margin-top: -78px;
+}
+#startPage .sub {
+  display: none;
+}
+#startPage .sub .top {
+  display: none;
+}
+#startPage .tab {
+  position: relative;
+  top: 120px;
+  padding-bottom: 20px;
+}
+#startPage .tab span {
+  padding: 15px 5px;
+  border-bottom: 1px solid #E6E6E6;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+#startPage .tab span#tab2 {
+  margin-left: 20px;
+}
+#startPage .tab span.active {
+  border-color: #0078D7;
+}
+
+/** import responsive style **/
+@media screen and (max-width: 991px) {
+  #startPage #step_back {
+    top: 103px;
+  }
+  #startPage #new-grid #step_back svg path {
+    fill: #0078D7;
+  }
+  #startPage #new-grid #step_back svg path#Pfad_1 {
+    fill: none;
+    stroke: #0078D7;
+  }
+  #startPage .banner {
+    padding: 45px 0;
+    margin-top: 22.5px;
+  }
+  #startPage .banner img {
+    max-width: 300px;
+    margin-bottom: 0;
+  }
+  #startPage .banner .row {
+    justify-content: center;
+    align-items: center;
+  }
+  #startPage .info-container #supportservice {
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #startPage h1 {
+    font-size: 35px;
+  }
+  #startPage .btn {
+    font-size: 22.5px;
+    margin: 11.25px 5.325px;
+    display: block;
+    width: 100%;
+  }
+  #startPage nav img {
+    max-width: 164.25px;
+  }
+  #startPage header {
+    margin: 56.25px 0;
+  }
+  #startPage aside {
+    margin-top: 56.25px 0;
+  }
+  #startPage .top p {
+    font-size: 22.5px;
+  }
+  #startPage .info-container p {
+    font-size: 17.235px;
+    margin-bottom: 3.75px;
+  }
+  #startPage .info-container img {
+    margin-top: 11.25px !important;
+  }
+  #startPage .info-container .row {
+    margin-bottom: 22.5px;
+  }
+  #startPage .info-container .notice p {
+    font-size: 11px;
+  }
+  #startPage .banner img {
+    margin-bottom: 30px;
+  }
+  #startPage #step_back svg {
+    max-width: 39px;
+  }
+  #startPage .notice {
+    margin: 30px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

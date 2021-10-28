@@ -1,0 +1,1556 @@
+{
+    "0" :{
+        "id" : "r0_a",
+        "officeGray" : true,
+        "name" : "Office",
+        "subname" : "Home & Business",
+        "info" : {
+            "license" : "Dauerlizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf einem Gerät",
+                "description" : "Windows oder macOS",
+                "image" : "desktop_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Klassische Office-Apps",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams*",
+                        "enabled" : false
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : false
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : false
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "O_HuBusiness.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : [
+            "r0_a2"
+        ]
+    },
+    "1" :{
+        "id" : "r0_b",
+        "officeGray" : true,
+        "name" : "Office",
+        "subname" : "Home & Student",
+        "info" : {
+            "license" : "Dauerlizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf einem Gerät",
+                "description" : "Windows oder macOS",
+                "image" : "desktop_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Klassische Office-Apps",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams*",
+                        "enabled" : false
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : false
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : false
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "O_HuStudent.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "2" :{
+        "id" : "r0_a2",
+        "officeGray" : true,
+        "name" : "Office",
+        "subname" : "Professional",
+        "info" : {
+            "license" : "Dauerlizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf einem Windows-Gerät",
+                "description" : "",
+                "image" : "desktop_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Klassische Office-Apps plus Publisher und Access",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams*",
+                        "enabled" : false
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : false
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : false
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "O_Pro.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "3" :{
+        "id" : "r0_c",
+        "officeGray" : false,
+        "name" : "Microsoft 365",
+        "subname" : "Single",
+        "info" : {
+            "license" : "1-Jahres-Lizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf Ihren Lieblingsgeräten",
+                "description" : "Windows und macOS, Android und iOS",
+                "image" : "all_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Premium Office-Apps und Dienste",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : true
+                    },
+					"8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : true
+                    },
+					"9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams*",
+                        "enabled" : true
+                    },
+					"10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : true
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "OneDrive Cloudspeicher",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : true
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "Sicherheit und Support",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Fortschrittliche Sicherheit",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : true
+                    }
+                }
+            },
+            "notice" : {
+                "message": "<sup>*</sup>Ab Verfügbarkeit. Weitere Informationen finden Sie hier zu <a href='https://www.microsoft.com/de-ch/microsoft-365/microsoft-teams/teams-for-home'>Teams</a> und <a href='https://www.microsoft.com/de-ch/microsoft-365/family-safety'>Family Safety</a>."
+            }
+        },
+        "banner" :  {
+            "image" : "M365S.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "4" :{
+        "id" : "r0_d",
+        "officeGray" : false,
+        "name" : "Microsoft 365",
+        "subname" : "Family",
+        "info" : {
+            "license" : "1-Jahres-Lizenz",
+            "user" : {
+                "title" : "Für bis zu 6 Benutzer",
+                "image" : "Person_icon_6.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf Ihren Lieblingsgeräten",
+                "description" : "Windows und macOS, Android und iOS",
+                "image" : "all_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Premium Office-Apps und Dienste",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : true
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams*",
+                        "enabled" : true
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : true
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "OneDrive Cloudspeicher",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : true
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "Sicherheit und Support",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Fortschrittliche Sicherheit",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : true
+                    }
+                }
+            },
+            "notice" : {
+                "message": "<sup>*</sup>Ab Verfügbarkeit. Weitere Informationen finden Sie hier zu <a href='https://www.microsoft.com/de-ch/microsoft-365/microsoft-teams/teams-for-home'>Teams</a> und <a href='https://www.microsoft.com/de-ch/microsoft-365/family-safety'>Family Safety</a>."
+            }
+        },
+        "banner" :  {
+            "image" : "M365F.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "5" :{
+        "id" : "r0_e",
+        "officeGray" : true,
+        "name" : "Office",
+        "subname" : "Home & Business",
+        "info" : {
+            "license" : "Dauerlizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf einem Gerät",
+                "description" : "Windows oder macOS",
+                "image" : "desktop_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Klassische Office-Apps",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams",
+                        "enabled" : false
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : false
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : false
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "O_HuBusiness.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : [
+            "r0_e2"
+        ]
+    },
+    "6" :{
+        "id" : "r0_e2",
+        "officeGray" : true,
+        "name" : "Office",
+        "subname" : "Professional",
+        "info" : {
+            "license" : "Dauerlizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf einem Windows-Gerät",
+                "description" : "",
+                "image" : "desktop_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Klassische Office-Apps plus Publisher und Access",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams",
+                        "enabled" : false
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : false
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : false
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "O_Pro.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "7" :{
+        "id" : "r1_a",
+        "officeGray" : false,
+        "name" : "Microsoft 365",
+        "subname" : "Apps",
+        "info" : {
+            "license" : "1-Jahres-Lizenz <br> (Jetzt als ESD oder CSP) <small>ESD = Electronic Software Distribution, CSP = Cloud Solution Provider</small>",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf Ihren Lieblingsgeräten",
+                "description" : "Windows und macOS, Android und iOS",
+                "image" : "all_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Premium Office-Apps",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams",
+                        "enabled" : false
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "OneDrive Cloudspeicher",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : true
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "Sicherheit und Support",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : true
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "M365A_beide.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "8" :{
+        "id" : "r1_b",
+        "officeGray" : false,
+        "name" : "Microsoft 365",
+        "subname" : "Business Standard",
+        "info" : {
+            "license" : "1-Jahres-Lizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf Ihren Lieblingsgeräten",
+                "description" : "Windows und macOS, Android und iOS",
+                "image" : "all_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Premium Office-Apps sowie Geschäfts-Apps und -dienste",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : true
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : true
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams",
+                        "enabled" : true
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "OneDrive Cloudspeicher",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : true
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "Sicherheit und Support",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : true
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "M365B_S.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "9" :{
+        "id" : "r1_c",
+        "officeGray" : false,
+        "name" : "Microsoft 365",
+        "subname" : "Business Premium",
+        "info" : {
+            "license" : "1-Jahres-Lizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf Ihren Lieblingsgeräten",
+                "description" : "Windows und macOS, Android und iOS",
+                "image" : "all_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Premium Office-Apps sowie Geschäfts-Apps und -dienste",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : true
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : true
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : true
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : true
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams",
+                        "enabled" : true
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "OneDrive Cloudspeicher",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : true
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "Sicherheit und Support",
+                "product" : {
+                    "0" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : true
+                    },
+                    "2" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : true
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : true
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "M365B_P.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "10" :{
+        "id" : "r1_d",
+        "officeGray" : false,
+        "name" : "Microsoft 365",
+        "subname" : "Business Basic",
+        "info" : {
+            "license" : "1-Jahres-Lizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Office Web-Versionen und Mobile-Apps",
+                "description" : "Android und iOS",
+                "image" : "basic_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Geschäfts-Apps und -dienste",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : false
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : false
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : false
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : false
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : true
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : true
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams",
+                        "enabled" : true
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "OneDrive Cloudspeicher",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : true
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "Sicherheit und Support",
+                "product" : {
+                    "0" : {
+                        "image" : "Security.png",
+                        "subline" : "Enterprise- Sicherheit",
+                        "enabled" : true
+                    },
+                    "1" : {
+                        "image" : "Intune.png",
+                        "subline" : "Intune",
+                        "enabled" : false
+                    },
+                    "2" : {
+                        "image" : "Azure.png",
+                        "subline" : "Azure Information protection",
+                        "enabled" : false
+                    },
+                    "3" : {
+                        "image" : "Tech_Support.png",
+                        "subline" : "Tech <br />Support",
+                        "enabled" : true
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "M365B_B.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    },
+    "11" :{
+        "id" : "r1_e",
+        "officeGray" : true,
+        "name" : "Office",
+        "subname" : "Home & Student",
+        "info" : {
+            "license" : "Dauerlizenz",
+            "user" : {
+                "title" : "Für eine Person",
+                "image" : "Person_icon.png", 
+                "enabled" : true
+            },
+            "devices" : {
+                "title" : "Installation auf Ihren Lieblingsgeräten",
+                "description" : "Windows und macOS, Android und iOS",
+                "image" : "desktop_devices.png", 
+                "enabled" : true
+            },
+            "apps" : {
+                "title" :"Klassische Office-Apps",
+                "app": {
+                    "0":{
+                        "image" : "Word_375x375.png",
+                        "subline" : "Word",
+                        "enabled" : true
+                    },
+                    "1":{
+                        "image" : "Excel_375x375.png",
+                        "subline" : "Excel",
+                        "enabled" : true
+                    },
+                    "2":{
+                        "image" : "Powerpoint_375x375.png",
+                        "subline" : "PowerPoint",
+                        "enabled" : true
+                    },
+                    "3":{
+                        "image" : "Outlook_375x375.png",
+                        "subline" : "Outlook",
+                        "enabled" : false
+                    },
+                    "4":{
+                        "image" : "Exchange.png",
+                        "subline" : "Exchange",
+                        "enabled" : false
+                    },
+                    "5":{
+                        "image" : "Sharepoint.png",
+                        "subline" : "SharePoint",
+                        "enabled" : false
+                    },
+                    "6":{
+                        "image" : "Publisher.png",
+                        "subline" : "Publisher<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "7":{
+                        "image" : "Access.png",
+                        "subline" : "Access<br />(Nur PC)",
+                        "enabled" : false
+                    },
+                    "8":{
+                        "image" : "Skype.png",
+                        "subline" : "Skype",
+                        "enabled" : false
+                    },
+                    "9":{
+                        "image" : "Teams.png",
+                        "subline" : "Teams",
+                        "enabled" : false
+                    },
+                    "10":{
+                        "image" : "FamilySafety.png",
+                        "subline" : "Family Safety*",
+                        "enabled" : false
+                    }
+                }
+            },
+            "cloudservice" : {
+                "title" : "",
+                "product" : {
+                    "0" : {
+                        "image" : "1TB_cloud_storage.png",
+                        "subline" : "Cloud- Speicher",
+                        "enabled" : false
+                    },
+                    "1" : {
+                        "image" : "OneDrive_Personal_Vault.png",
+                        "subline" : "Persönlicher Tresor",
+                        "enabled" : false
+                    }
+                } 
+            },
+            "support" : {
+                "title" : "",
+                "product" : {
+                    "product" : {
+                        "0" : {
+                            "image" : "Security.png",
+                            "subline" : "Enterprise- Sicherheit",
+                            "enabled" : false
+                        },
+                        "1" : {
+                            "image" : "Intune.png",
+                            "subline" : "Intune",
+                            "enabled" : false
+                        },
+                        "2" : {
+                            "image" : "Azure.png",
+                            "subline" : "Azure Information protection",
+                            "enabled" : false
+                        },
+                        "3" : {
+                            "image" : "Tech_Support.png",
+                            "subline" : "Tech <br />Support",
+                            "enabled" : false
+                        }
+                    }
+                }
+            },
+            "notice" : {
+                "message": ""
+            }
+        },
+        "banner" :  {
+            "image" : "O_HuStudent.png",
+            "info" : "http://localhost",
+            "buy" : "http://localhost"
+        },
+        "subproduct" : []
+    }
+}

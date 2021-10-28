@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104.85" height="104.85" viewBox="0 0 104.85 104.85">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Pfad_2" data-name="Pfad 2" d="M0,51.877H104.85V-52.973H0Z" transform="translate(0 52.973)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_6" data-name="Gruppe 6" transform="translate(-136.062 -354.035)">
+    <g id="Gruppe_5" data-name="Gruppe 5" transform="translate(136.062 407.008)">
+      <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(0 -52.973)" clip-path="url(#clip-path)">
+        <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(3.96 3.959)">
+          <path id="Pfad_1" data-name="Pfad 1" d="M23.979,47.959A48.466,48.466,0,0,0,72.444-.506,48.466,48.466,0,0,0,23.979-48.973,48.466,48.466,0,0,0-24.486-.506,48.466,48.466,0,0,0,23.979,47.959Z" transform="translate(24.486 48.973)" fill="none" stroke="#0078D7" stroke-width="8"/>
+        </g>
+      </g>
+      <path id="Pfad_3" data-name="Pfad 3" d="M16.642-14.945H68.114V-30.388H16.642Z" transform="translate(16.298 22.118)" fill="#0078D7"/>
+      <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(20.438 -9.998)">
+        <path id="Pfad_4" data-name="Pfad 4" d="M4.682,0-4.781,9.463,24.661,38.905l9.463-9.463Z" transform="translate(4.781)" fill="#0078D7"/>
+      </g>
+      <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(20.438 -30.004)">
+        <path id="Pfad_5" data-name="Pfad 5" d="M0,14.567,9.463,24.03,38.905-5.412l-9.463-9.463Z" transform="translate(0 14.875)" fill="#0078D7"/>
+      </g>
+    </g>
+  </g>
+</svg>

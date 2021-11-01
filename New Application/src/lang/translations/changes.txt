@@ -1,0 +1,25 @@
+Key ändern zu: 
+eingabe_panels_verificationtransverseforce_shearjoint_smooth = „glatt“
+(vorher: „Verbundfuge“)
+
+eingabe_panels_verificationtransverseforce_shearjoint_rough = „rau“
+(vorher: "Verbundfuge")
+
+ "alertmessages_09": "Bitte bei \"Biegezugbewehrung\" einen Wert gr\u00f6\u00dfer als 0 eingeben."
+ (vorher: "\"Bitte bei \"\"Biegezugbewehrung\"\" einen Wert gr\u00f6\u00dfer als 0 eingeben.\"")
+
+----------
+
+Neue Keys: 
+"eingabe_modal_productselection_table_cell_isusable": "nutzbar",
+"eingabe_modal_productselection_table_cell_is_not_usable": "nicht nutzbar",
+
+
+Key ändern zu:
+"eingabe_modal_newcalc_nameofcalc": "Name der Berechnung",
+(vorher: "Position")
+
+Key fliegt raus: 
+calculation_not_filled_ceiling
+Dafür wird eingesetzte: 
+calculation_not_complete_calculation = "Hinweis: Diesem Report liegt eine unvollständige Berechnung zugrunde."
